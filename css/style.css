@@ -1,8 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     min-height: 400px;
     margin-bottom: 100px;
     clear: both;
- }
+    
+}
 
 footer {
     text-align: center;
@@ -11,8 +16,49 @@ footer {
 }
 
 .fixed-bottom {
-    background-color: #17a2b8;
+    background-color: teal;
     color: white;
     text-decoration: none;
 }
 
+#header{
+border-bottom: 8px solid teal;
+margin-bottom: 10px;
+}
+
+.main-container{
+width: 80%;
+margin: 0 auto;
+
+}
+
+#instructions{
+background-color: beige;
+opacity:0.5;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+
+#given-number-panel{    
+background-color: beige;
+height: 120px;
+text-align: center;
+padding: 20px;
+margin-bottom: 10px;
+}
+
+
+#guess-number-panel{
+background-color: beige;
+height: 120px;
+text-align: center;
+padding: 20px;
+margin-bottom: 10px;
+}
+
+#counter{
+margin-top: 10px;
+background-color: beige;
+height:80px;
+}

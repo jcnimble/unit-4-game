@@ -17,25 +17,23 @@
 
 <body>
     <div class="container-fluid">
-
-        <div class="row">
+        <div id="header" class="row">
             <div class="col-md-12">
-                <h1 class="display-4">Crystals Collector!</h1>
+                <h2 class="display-4">Crystals Collector!</h2>
             </div>
         </div>
+    </div>
 
+    <div class="main-container">
 
         <div class="row">
             <div class="col-md-12">
-                <div id="Instructions">
+                <div id="instructions">
 
-                    <p>You will be given a random number a the start of the game.</p>
-                    <p>There are four crystals below. By clicking on a crystal you
-                        will add a specific amount of points to your total score.</p>
-                    <p>You win by matching your total score to the random number,
-                        you lose the game if your total scrore goes above the random number.</p>
-                    <p>The value of each crystal is hidden from you until you click on it.</p>
-                    <p>Each time the game starts, the game will change the values of each crystal.</p>
+                    <p>You will be given a random number a the start of the game. There are four crystals below. By
+                        clicking on a crystal you will add a specific amount of points to your total score.You win by matching your total score to
+                        the random number, you lose the game if your total scrore goes above the random number. The value of each crystal
+                        is hidden from you until you click on it. Each time the game starts, the game will change the values of each crystal.</p>
 
                 </div>
             </div>
@@ -46,15 +44,15 @@
         <div class="row">
             <div class="col-md-6">
                 <div id="given-number-panel">
-                    <h1>Your Goal:</h1>
-                    <h1 id="given-number"></h1>
+                    <h2>Your Goal:</h2>
+                    <h2 id="given-number"></h2>
 
                 </div>
             </div>
             <div class="col-md-6">
                 <div id="guess-number-panel">
-                    <h1>Your Guess:</h1>
-                    <h1 id="guess-number"></h1>
+                    <h2>Your Guess:</h2>
+                    <h2 id="guess-number"></h2>
 
                 </div>
             </div>
@@ -94,19 +92,17 @@
             </div>
         </div>
 
-    <div class="row">
-        <div class="col-md-6">
-            <h2 id="win-counter">Wins:</h2>
-
-        </div>
-        <div class="col-md-6">
-            <h2 id="loss-counter">Losses:</h2>
-
+        <div id="counter" class="row">
+            <div class="col-md-6">
+                <h4>Wins:</h4>
+                <h4 id="win-counter"></h4>
+            </div>
+            <div class="col-md-6">
+                <h4>Losses:</h4>
+                <h4 id="loss-counter"></h4>
+            </div>
         </div>
     </div>
-    </div>
-
-
 
     <footer class="footer">
         <div class="container-fluid">
