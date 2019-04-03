@@ -6,6 +6,7 @@ body {
     min-height: 400px;
     margin-bottom: 100px;
     clear: both;
+    background-image: url(css\background.png);
     
 }
 
@@ -33,32 +34,33 @@ margin: 0 auto;
 }
 
 #instructions{
-background-color: beige;
-opacity:0.5;
 padding: 10px;
 margin-bottom: 10px;
 }
 
 
 #given-number-panel{    
-background-color: beige;
+background-color: rgba(29, 191, 202, 0.993);
 height: 120px;
 text-align: center;
 padding: 20px;
 margin-bottom: 10px;
+color: white;
 }
 
 
 #guess-number-panel{
-background-color: beige;
+background-color:rgb(207, 7, 147);
 height: 120px;
 text-align: center;
 padding: 20px;
 margin-bottom: 10px;
+color: white;
 }
 
 #counter{
 margin-top: 10px;
-background-color: beige;
+background-color: rgb(176, 17, 207);
 height:80px;
+color: white;
 }
